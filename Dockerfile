@@ -1,2 +1,3 @@
-FROM node:6.2.0-onbuild
-FROM npm run build
+FROM node:4-onbuild
+# replace this with your application's default port
+EXPOSE 8888
